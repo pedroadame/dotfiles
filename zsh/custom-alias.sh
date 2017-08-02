@@ -1,0 +1,9 @@
+alias cls=clear
+alias vup="vagrant up"
+alias vdup="vagrant destroy && vagrant up"
+alias vpr="vagrant provision"
+alias vre="vagrant reload"
+alias zshc="vim ~/.zshrc"
+alias gv="gvim"
+alias be="bundle exec"
+alias mux=tmuxinator
