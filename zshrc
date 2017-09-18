@@ -89,7 +89,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source "dotfiles/zsh/custom-alias.sh"
-export VISUAL=gvim
+export VISUAL=vim
 export EDITOR=vim
 source $ZSH/oh-my-zsh.sh
 
