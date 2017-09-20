@@ -98,9 +98,6 @@ export VISUAL=vim
 export EDITOR=vim
 source $ZSH/oh-my-zsh.sh
 
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 export DISABLE_AUTO_TITLE=true
 # plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
