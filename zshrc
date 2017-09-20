@@ -92,8 +92,11 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
-source ~/dotfiles/zsh/custom-alias.sh
-source ~/dotfiles/zsh/vault.sh
+source $HOME/dotfiles/zsh/custom-alias.sh
+VAULT_FILE=$HOME/dotfiles/zsh/vault.sh
+if [[ -f $VAULT_FILE ]]; then
+  source $VAULT_FILE
+fi
 
 export VISUAL=vim
 export EDITOR=vim
