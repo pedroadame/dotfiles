@@ -91,7 +91,9 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
-source "~/dotfiles/zsh/custom-alias.sh"
+source ~/dotfiles/zsh/custom-alias.sh
+source ~/dotfiles/zsh/vault.sh
+
 export VISUAL=vim
 export EDITOR=vim
 source $ZSH/oh-my-zsh.sh
@@ -103,4 +105,3 @@ export DISABLE_AUTO_TITLE=true
 # plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-source "~/dotfiles/zsh/vault.sh"
