@@ -1,7 +1,3 @@
-# Run tmux automatically everytime zsh is ran
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
