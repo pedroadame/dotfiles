@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 export DISABLE_AUTO_TITLE=true
 # plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+autoload zmv
 
 # Load rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
